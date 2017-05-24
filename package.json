@@ -1,6 +1,6 @@
 {
-	"name": "rollup-plugin-tslint",
-	"version": "0.1.21",
+	"name": "rollup-plugin-tslint-fixed",
+	"version": "1.0.0",
 	"description": "Verify entry point and all imported files with TSLint",
 	"main": "dist/rollup-plugin-tslint.cjs.js",
 	"module": "dist/rollup-plugin-tslint.es.js",
@@ -53,7 +53,7 @@
 	},
 	"dependencies": {
 		"rollup-pluginutils": "^2.0.1",
-		"tslint": "^5.2.0"
+		"tslint": "^5.3.2"
 	},
 	"standard": {
 		"ignore": [

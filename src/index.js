@@ -14,13 +14,12 @@ export default function tslint (options = {}) {
   )
 
   options.formatter = options.formatter || 'stylish'
-
   // formatter: "stylish"
   // rulesDirectory: null,
   // formattersDirectory: "customFormatters/"
 
   const linter = new Linter(options)
-  const configuration = Linter.loadConfigurationFromPath(Linter.findConfigurationPath())
+  const configuration = Linter.loadConfigurationFromPath(Linter.findConfigurationPath(null, ''))
 
   return {
     name: 'tslint',
